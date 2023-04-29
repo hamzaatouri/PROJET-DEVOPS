@@ -14,7 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.junit.Test;
 import tn.esprit.spring.entities.Train;
 import tn.esprit.spring.repository.TrainRepository;
-import tn.esprit.spring.entities.TrainRepository;
+import tn.esprit.spring.entities.etatTrain;
 
 
 import lombok.extern.slf4j.Slf4j;
