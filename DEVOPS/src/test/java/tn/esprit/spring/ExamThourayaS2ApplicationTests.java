@@ -3,11 +3,6 @@ import static org.mockito.Mockito.when;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
-
-
-import org.junit.Test;
-
-
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
