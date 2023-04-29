@@ -14,6 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.junit.Test;
 import tn.esprit.spring.entities.Train;
 import tn.esprit.spring.repository.TrainRepository;
+import tn.esprit.spring.entities.TrainRepository;
 
 
 import lombok.extern.slf4j.Slf4j;
@@ -30,7 +31,7 @@ public void testAddTrain()
      {
   
   TrainRepository TR = Mockito.mock(TrainRepository.class);
-  Train t = new Train(5L,etat.en_gare,70);
+  Train t = new Train(5L,etatTrain.en_gare,70);
   Mockito.when(TR.save(t)).thenReturn(t);
   assertNotNull(t);
 		
