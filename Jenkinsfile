@@ -32,7 +32,7 @@ pipeline {
             
        stage('NEXUS DEPLOYEMENT'){
             steps{
-                sh 'mvn -f tpAchatProject/pom.xml -Dmaven.test.skip=true deploy'
+                sh 'mvn -f DEVOPS/pom.xml -Dmaven.test.skip=true deploy'
                  }
         }
             
