@@ -20,10 +20,10 @@ import lombok.extern.slf4j.Slf4j;
 
 @SpringBootTest
 @Slf4j
-public class ExamThourayaS2ApplicationTests {
+public class ExamThourayaS2ApplicationTest {
 
 @Test
-public 	void testAddTrain()
+public void testAddTrain()
 
      {
   
