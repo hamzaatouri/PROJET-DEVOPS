@@ -20,7 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @SpringBootTest
 @Slf4j
-class ExamThourayaS2ApplicationTests {
+public class ExamThourayaS2ApplicationTests {
 
 @Test
 public 	void testAddTrain()
